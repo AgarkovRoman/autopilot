@@ -1,0 +1,6 @@
+.TopRight {
+    display: flex;
+    align-items: center;
+    color: #262626;
+    justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+.Topbar{
+    background: #fff;
+    color: #262626;
+}
+
+.Topbar Header{
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.Topbar h3 {
+    margin: 0
+}

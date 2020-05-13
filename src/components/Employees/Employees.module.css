@@ -1,0 +1,14 @@
+.Employees {
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+
+.Employees h3{
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+}

@@ -1,16 +1,17 @@
 import React from 'react';
+import classes from './LeftMenu.module.css'
 import {Avatar, Menu} from 'antd';
 import { TeamOutlined, SearchOutlined, BuildOutlined, HistoryOutlined, BarsOutlined, ClusterOutlined } from '@ant-design/icons';
 
 const { SubMenu } = Menu;
 
-
 class LeftMenu extends React.Component {
     render() {
         return (
+            <div className={classes.LeftMenu}>
             <Menu
                 onClick={this.handleClick}
-                style={{ width: 200 }}
+                style={{ width: 200, background: "#fff"}}
                 defaultSelectedKeys={['1']}
                 defaultOpenKeys={['sub1']}
                 mode="inline"
@@ -55,6 +56,7 @@ class LeftMenu extends React.Component {
 
 
             </Menu>
+            </div>
         );
     }
 }

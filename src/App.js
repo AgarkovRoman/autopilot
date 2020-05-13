@@ -2,8 +2,9 @@ import React from 'react';
 import './App.css';
 import {Layout} from 'antd';
 import 'antd/dist/antd.css';
-import Topbar from "./components/Topbar/Topbar";
+import Topbar from "./components/Top/Topbar/Topbar";
 import LeftMenu from './components/LeftMenu/LeftMenu';
+import AllEmployees from "./components/MainBlock/AllEmpoloyees/AllEmployees";
 
 const { Sider, Content } = Layout;
 
@@ -15,8 +16,10 @@ function App() {
                 <LeftMenu/>
             </Sider>
             <Layout>
-                <Topbar></Topbar>
-                <Content>Content</Content>
+                <Topbar/>
+                <Content>
+                    <AllEmployees/>
+                </Content>
             </Layout>
         </Layout>
     </div>

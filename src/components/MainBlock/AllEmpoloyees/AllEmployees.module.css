@@ -1,0 +1,8 @@
+.AllEmployees {
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    margin: 32px auto;
+    padding: 24px 32px;
+    width: 95%;
+    background: #ffffff;
+}
